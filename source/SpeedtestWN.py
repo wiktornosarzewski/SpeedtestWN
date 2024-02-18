@@ -15,6 +15,7 @@ def run_speed_test():
         print(f"Prędkość wysyłania: {upload_speed:.2f} Mbps")
         print(f"Prędkość pobierania: {download_speed2:.2f} MB/s")
         print(f"Prędkość wysyłania: {upload_speed2:.2f} MB/s")
+        input()
     except Exception as e:
         print(f"Wystąpił błąd: {e}")
 
